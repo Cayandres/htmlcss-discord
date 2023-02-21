@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .container{
@@ -18,26 +18,26 @@ body{
   background-color: #d3d3d3;
 }
 
-.dash{
-  border: 1px dashed black;
+h1{
+  font-size: 40px;
 }
 
 header{
-  height: 40px;
-  background-color: #add8e6;
+  height: 70px;
+  background-color: #3161e0;
 }
+
 
 header .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  background-color: #daa520;
+  background-color: #3161e0;
+  color: white;
 }
 
-header .container>div, header .container>nav {
-  border: 1px dashed black;
-}
+
 
 header .container>div{
   width: calc(100%/4);
@@ -65,21 +65,47 @@ header .menu ul li{
 
 header .menu ul li a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .jumbotron{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 500px;
   background-color: #030283;
+  background-image: url(/img/jumbo.png);
+  background-size: cover;
+
 }
 
 .jumbotron .content.dash{
-  height: 80%;
-  width: 65%;
-  background-color: #ee82ee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 42%;
+  width: 42%;
+  background-color: #ffffff00;
+  color: white;
+}
+
+.jumbotron .content .testo{
+  text-align: center;
+}
+.radius{
+  border-radius: 10px;
+  border: 100px;
+  padding: 10px;
+}
+
+.cta-container a{
+  background-color: white;
+  color: #23272a;
+}
+.cta-container button{
+  background-color: #23272a;
+  color: white;
 }
 
 section{
