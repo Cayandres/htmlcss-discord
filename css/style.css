@@ -22,6 +22,16 @@ h1{
   font-size: 40px;
 }
 
+h2{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
 header{
   height: 70px;
   background-color: #3161e0;
@@ -40,7 +50,7 @@ header .container{
 
 
 header .container>div{
-  width: calc(100%/4);
+  width: calc(100%/16);
   padding: 10px;
 }
 header .container>nav{
@@ -50,7 +60,10 @@ header .container>nav{
 
 .container .button{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  padding: 10px;
 }
 
 header .menu ul{
@@ -63,17 +76,12 @@ header .menu ul li{
   margin: 0 15px;
 }
 
-header .menu ul li a{
-  text-decoration: none;
-  color: white;
-}
 
 .jumbotron{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 500px;
-  background-color: #030283;
   background-image: url(/img/jumbo.png);
   background-size: cover;
 
@@ -84,7 +92,7 @@ header .menu ul li a{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 42%;
+  height: 48%;
   width: 42%;
   background-color: #ffffff00;
   color: white;
@@ -94,9 +102,14 @@ header .menu ul li a{
   text-align: center;
 }
 .radius{
-  border-radius: 10px;
-  border: 100px;
-  padding: 10px;
+  border-radius: 25px;
+}
+
+.radius.size{
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
 }
 
 .cta-container a{
@@ -106,6 +119,9 @@ header .menu ul li a{
 .cta-container button{
   background-color: #23272a;
   color: white;
+  padding: 1px;
+  border-color: #23272a;
+
 }
 
 section{
@@ -117,18 +133,30 @@ section .container{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffc0cb;
   height: 400px;
+}
+
+section p{
+  line-height: 26px;
 }
 
 .container .image{
   height: 100%;
-  width: 70%;
-  background-color: #1e90ff;
+  width: 74%;
 }
+.container .image img{
+width: 100%;
+height: 100%;
+}
+
 .container .testo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100%;
-  width: 30%;
+  width: 26%;
+  text-align: left;
+  
 }
 
 section.bottom{
