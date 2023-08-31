@@ -8,6 +8,10 @@ body{
   font-family: 'Helvetica', sans-serif;
 }
 
+.active :hover{
+  background-color: black;
+}
+
 .container{
   width: 80%;
   max-width: 1200px;
@@ -100,13 +104,13 @@ header .menu ul li{
   text-align: center;
 }
 .radius{
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 .radius.size{
-  padding: 15px 32px;
+  padding: 12px 24px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   margin: 4px 2px;
 }
 
